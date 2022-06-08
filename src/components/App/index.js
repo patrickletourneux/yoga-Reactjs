@@ -57,7 +57,7 @@ function App() {
       <Routes>
         <Route
           exact
-          path="/"
+          path=""
           element={(
             <Listcard
               data={data}
@@ -67,8 +67,6 @@ function App() {
             />
           )}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/favorites"
@@ -81,8 +79,6 @@ function App() {
             />
           )}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/singleCard"
